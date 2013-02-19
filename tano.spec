@@ -24,7 +24,7 @@ simple IP TV player on Linux providing EPG.
 %setup -q
 
 %build
-%cmake_kde4
+%cmake
 export CFLAGS="$RPM_OPT_FLAGS -ffast-math"
 make
 
